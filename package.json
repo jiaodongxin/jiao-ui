@@ -1,0 +1,34 @@
+{
+  "name": "jiao-ui",
+  "version": "1.0.2",
+  "description": "Your package description",
+  "main": "dist/jiao-ui.umd.js",
+  "module": "dist/jiao-ui.es.js",
+  "type": "module",
+  "author": "jiao <jdx_12139@163.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiaodongxin/jiao-ui.git"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/jiao-ui.es.js",
+      "require": "./dist/jiao-ui.umd.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vant": "^4.9.20",
+    "vue": "^3.5.17",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "@vitejs/plugin-vue": "^6.0.0",
+    "vite": "^7.0.0"
+  }
+}

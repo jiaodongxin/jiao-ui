@@ -1,0 +1,19 @@
+.my-button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.my-button--primary {
+  background-color: #165dff;
+  color: white;
+  border: 1px solid #165dff;
+}
+
+.my-button--secondary {
+  background-color: white;
+  color: #165dff;
+  border: 1px solid #165dff;
+}
